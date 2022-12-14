@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="11" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[clickOn Desktops[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> link text: Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[click Show All deshktops[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> link text: Show All Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[productname]]>
+    </line>
+    <line>
+      <![CDATA[click on mastercard type button[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> id: input-sort]]]>
+    </line>
+    <line>
+      <![CDATA[productname Z to A]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover On laptop [[ChromeDriver: chrome on WINDOWS (b0fe498f1cf886da3654665d5e689f6f)] -> link text: Laptops & Notebooks]]]>
+    </line>
+    <line>
+      <![CDATA[click On Show All laptop [[ChromeDriver: chrome on WINDOWS (b0fe498f1cf886da3654665d5e689f6f)] -> link text: Show All Laptops & Notebooks]]]>
+    </line>
+    <line>
+      <![CDATA[ clickOn My Account[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //span[contains(text(),'My Account')]]]]>
+    </line>
+    <line>
+      <![CDATA[ clikcOn Register[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //a[contains(text(),'Register')]]]]>
+    </line>
+    <line>
+      <![CDATA[ verify Text Register Account[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //h1[contains(text(),'Register Account')]]]]>
+    </line>
+    <line>
+      <![CDATA[clickOn Desktops[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> link text: Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[click On Show All Desktops[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> link text: Show All Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Text[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="sanity suite" duration-ms="25910" started-at="2022-12-14T16:48:14 GMT" finished-at="2022-12-14T16:48:40 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="DesktopsPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.tutorialninja.testsuite.DesktopsPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="MyAccountTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialninja.testsuite.MyAccountTest"/>
+        <method signature="TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="DesktopsPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.tutorialninja.testsuite.DesktopsPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="MyAccountTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialninja.testsuite.MyAccountTest"/>
+        <method signature="TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialninja.testsuite.TopMenuTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="25910" started-at="2022-12-14T16:48:14 GMT" finished-at="2022-12-14T16:48:40 GMT">
+      <class name="com.tutorialninja.testsuite.TopMenuTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="setUp" is-config="true" duration-ms="3987" started-at="2022-12-14T16:48:34 GMT" finished-at="2022-12-14T16:48:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="inIt" is-config="true" duration-ms="4" started-at="2022-12-14T16:48:38 GMT" finished-at="2022-12-14T16:48:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" duration-ms="1826" started-at="2022-12-14T16:48:38 GMT" finished-at="2022-12-14T16:48:40 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[clickOn Desktops[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> link text: Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[click On Show All Desktops[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> link text: Show All Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Text[[ChromeDriver: chrome on WINDOWS (d9307385bb16cfec22fc2cfdfc7ba038)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.TopMenuTest@15b3e5b]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-12-14T16:48:40 GMT" finished-at="2022-12-14T16:48:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testsuite.TopMenuTest -->
+      <class name="com.tutorialninja.testsuite.DesktopsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="setUp" is-config="true" duration-ms="6441" started-at="2022-12-14T16:48:14 GMT" finished-at="2022-12-14T16:48:21 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InIt()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="InIt" is-config="true" duration-ms="55" started-at="2022-12-14T16:48:21 GMT" finished-at="2022-12-14T16:48:21 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InIt -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="2387" started-at="2022-12-14T16:48:21 GMT" finished-at="2022-12-14T16:48:23 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[clickOn Desktops[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> link text: Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[click Show All deshktops[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> link text: Show All Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[productname]]>
+            </line>
+            <line>
+              <![CDATA[click on mastercard type button[[ChromeDriver: chrome on WINDOWS (c9429bf6429f5c3e44839e016e04d3f5)] -> id: input-sort]]]>
+            </line>
+            <line>
+              <![CDATA[productname Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.DesktopsPageTest@47db50c5]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-12-14T16:48:23 GMT" finished-at="2022-12-14T16:48:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testsuite.DesktopsPageTest -->
+      <class name="com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="setUp" is-config="true" duration-ms="3640" started-at="2022-12-14T16:48:23 GMT" finished-at="2022-12-14T16:48:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="inIT" is-config="true" duration-ms="9" started-at="2022-12-14T16:48:27 GMT" finished-at="2022-12-14T16:48:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="verifyProductsPriceDisplayHighToLowSuccessfully" duration-ms="2078" started-at="2022-12-14T16:48:27 GMT" finished-at="2022-12-14T16:48:29 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[mouse Hover On laptop [[ChromeDriver: chrome on WINDOWS (b0fe498f1cf886da3654665d5e689f6f)] -> link text: Laptops & Notebooks]]]>
+            </line>
+            <line>
+              <![CDATA[click On Show All laptop [[ChromeDriver: chrome on WINDOWS (b0fe498f1cf886da3654665d5e689f6f)] -> link text: Show All Laptops & Notebooks]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPriceDisplayHighToLowSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest@44a3ec6b]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-12-14T16:48:29 GMT" finished-at="2022-12-14T16:48:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testsuite.LaptopsAndNotebooksPageTest -->
+      <class name="com.tutorialninja.testsuite.MyAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="setUp" is-config="true" duration-ms="3687" started-at="2022-12-14T16:48:29 GMT" finished-at="2022-12-14T16:48:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="inIt" is-config="true" duration-ms="11" started-at="2022-12-14T16:48:32 GMT" finished-at="2022-12-14T16:48:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" duration-ms="1214" started-at="2022-12-14T16:48:32 GMT" finished-at="2022-12-14T16:48:34 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[ clickOn My Account[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //span[contains(text(),'My Account')]]]]>
+            </line>
+            <line>
+              <![CDATA[ clikcOn Register[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //a[contains(text(),'Register')]]]]>
+            </line>
+            <line>
+              <![CDATA[ verify Text Register Account[[ChromeDriver: chrome on WINDOWS (8ad10ef0db3bc647c01d4d0f99fa1cf9)] -> xpath: //h1[contains(text(),'Register Account')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.testsuite.MyAccountTest@768b970c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-12-14T16:48:34 GMT" finished-at="2022-12-14T16:48:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testsuite.MyAccountTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- sanity suite -->
+</testng-results>
